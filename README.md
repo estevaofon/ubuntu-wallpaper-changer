@@ -1,19 +1,20 @@
 # ubuntu-wallpaper-changer
-Place the scripts at the same folder of your wallpapers images.
-Then just run the bash script to change the wallpaper
+[README IN ENGLISH](https://github.com/estevaofon/ubuntu-wallpaper-changer/blob/master/README-ENGLISH.md)
+Coloque os scripts no mesma pasta dos papeis de paredes.
+E apenas execute o script para mudar o papel de parede
 ```bash
 $ ./wallpaper.sh
 ```
-To change automatically the wallpaper every hour, let's add the script to crontab
+Para mudar automaticamente o papel de parede a cada hora, vamos adicionar o script ao crontab
 ```bash
 $ crontab -e 
 ```
-Add the following line, 
+Adicione a linha abaixo 
 ```bash
 0 * * * * /path/to/wallpaper.sh > /tmp/wallpaper.log 2>&1
 ```
-You probaly also want to make an alias to change the wallpaper. To do this write the following line to .bashrc
+Você provavelmente também quer fazer um atalho para mudar o papel de parede. Para fazer isso escreva a linha seguinte no home/user/.bashrc
 ```bash
 alias nextwall="/path/to/wallpaper.sh"
 ```
-All set! :)
+Tudo pronto! :)
