@@ -1,5 +1,6 @@
 # ubuntu-wallpaper-changer
-[README IN ENGLISH](https://github.com/estevaofon/ubuntu-wallpaper-changer/blob/master/README-ENGLISH.md)
+[Readme in English](https://github.com/estevaofon/ubuntu-wallpaper-changer/blob/master/README-ENGLISH.md)
+
 Coloque os scripts no mesma pasta dos papeis de paredes.
 E apenas execute o script para mudar o papel de parede
 ```bash
